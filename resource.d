@@ -1,1 +1,0 @@
-resource.o: resource.cpp
