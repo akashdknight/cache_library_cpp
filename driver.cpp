@@ -138,6 +138,8 @@ void checkLIFO(){
 }
 
 void checkThreadSafety(){
+    cout << "\n\n\033[32mChecking Thread safety...\033[0m\n\n";
+    
     Cache<int, vi > LRUCache("LRU", 10);
 
     vector<int> ans(1e4);

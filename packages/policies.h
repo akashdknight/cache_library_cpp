@@ -11,7 +11,6 @@ enum class Policy{
     LRU, 
     LIFO,
     FIFO,
-    LFU
 };
 
 template <typename K, typename V>

@@ -28,6 +28,7 @@ LRUCache<K, V>::LRUCache(int capacity) {
     this->head->next = this->tail;
 }
 
+// does not delete the node but just removes from the list.
 template <typename K, typename V>
 void removeNode(LRUnode<K, V> * nodeToRemove){
     if(nodeToRemove){
